@@ -131,8 +131,8 @@ if __name__=='__main__':
     print_intro()
     blimp = blimpKeyMachine(
         period_time_in_secs=0.05,
-        PUDP_IP="127.0.0.1",
-        # PUDP_IP="192.168.4.1",
+        # PUDP_IP="127.0.0.1",
+        PUDP_IP="192.168.4.1",
     )
     blimp.run_main()
     
